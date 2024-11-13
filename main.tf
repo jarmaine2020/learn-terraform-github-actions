@@ -18,6 +18,8 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
+  access_key = "AKIA2UC3CS7M4Y654KHW"
+  secret_key = "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"
 }
 
 resource "random_pet" "sg" {}
